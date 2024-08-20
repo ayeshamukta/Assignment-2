@@ -13,7 +13,22 @@
  box-sizing: border-box;
 }
 
-
+/* shared styles */
+.text-color1
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.text-color2
+{
+    color: (255, 255, 255, 0.65);
+}
+.description
+{
+    font-size: 18px;
+    font-weight: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /* nav styles */
 
@@ -61,10 +76,141 @@
 } */
 .btn-primary
 {
-    border: 2px solid peru;
+    border: none;
     margin: 0;
     border-radius: 46px;
     background-color: rgba(230, 83, 60, 1);
     padding: 8px 20px;
+    color: rgba(255, 255, 255, 1);
 
+}
+.btn-secondary
+{
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 46px;
+    padding: 8px 20px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(39, 38, 38) ;
+    margin-left: 10px;
+
+}
+
+/* banner styles */
+/* section1 */
+.nav-banner
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20%; */
+    /* border: 1px solid blue; */
+}
+.banner-section1 
+{
+    width: 50%;
+    /* border: 2px solid rgb(154, 128, 102); */
+    padding-right: 100px;
+
+    
+}
+#banner-shape
+{
+    font-family: 'Miama', sans-serif;
+    font-weight: 1;
+    
+}
+.banner-title
+{
+    font-size: 80px;
+    margin-bottom: 20px;
+
+}
+.description
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.banner-content
+{
+    /* border: 2px solid rgb(49, 49, 79); */
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+.button
+{
+    margin-top: 20px;
+}
+
+
+/* banner section 2 */
+.banner-section2 
+{
+    width: 30%;
+    /* border: 2px solid peru; */
+}
+.banner-section2>img
+{
+    width: 100%;
+}
+.sec2-button1
+{
+    width: 190px;
+    height: 90px;
+    border: none;
+    border-radius: 15px;
+    background-color:rgba(48, 48, 48, 0.54);
+    color: rgba(255, 255, 255, 1);
+    margin-left: -100px;
+    margin-top: -150px;
+}
+.circle
+{
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(230, 83, 60, 1);
+    border-radius: 50px;
+    font-size: 35px;
+    margin: 10px;
+    padding: 3px;
+    
+}
+#b-1
+{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+#b-1-2
+{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.sec2-button2
+{
+    width: 150px;
+    height: 90px;
+    border: none;
+    border-radius: 15px;
+    background-color:rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1);
+    margin-top: -470px;
+    margin-left: 120px;
+}
+.banner-sec-2buttons
+{
+    display: flex;
+}
+#b-2-1
+{
+    font-weight: 900;
+    font-size: 25px;
+    margin-right: 45px;
+}
+.but-txt-2
+{
+    margin-bottom: 20px;
+    font-size: 12px;
 }
