@@ -207,3 +207,52 @@ header
     font-size: 14px;
     
 }
+/* Change Habits Styles */
+main{
+    background-color: black;
+
+    
+}
+.habit
+{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid peru; */
+    
+    
+}
+
+.habit-section1
+{
+    width: 60%;
+    
+    /* border: 2px solid cyan; */
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+.habit-section2
+{
+    /* border: 2px solid palevioletred; */
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+}
+.habit-img
+{
+    /* border: 2px dotted navy; */
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.habit-card1, .habit-card2, .habit-card3, .habit-card4
+{
+    /* border: 2px solid maroon; */
+    text-align: center;
+}
+.habit-title
+{
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 1);
+}
