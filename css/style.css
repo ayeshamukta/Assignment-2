@@ -246,7 +246,7 @@ main{
     margin: auto;
     margin-bottom: 20px;
 }
-.habit-card1, .habit-card2, .habit-card3, .habit-card4
+.habit-card
 {
     /* border: 2px solid maroon; */
     text-align: center;
@@ -255,4 +255,43 @@ main{
 {
     font-weight: bolder;
     color: rgba(255, 255, 255, 1);
+}
+.run-extra
+{
+    /* border: 3px solid green; */
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 40px;
+    gap: 150px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 18px;
+}
+.run-section1, .run-section2
+{
+    width: 100%;
+    /* border: 3px dotted peru; */
+}
+.run-section2 > img
+{
+    width: 100%;
+    border-radius: 18px;
+}
+.run-section1
+{
+    /* text-align: center; */
+    /* align-content: center; */
+}
+h2
+{
+    
+    font-size: 45px;
+    font-weight: 900;
+}
+.run-button
+{
+    width: 150px;
+    margin: 20px;
+    margin-left: 0px;
 }
