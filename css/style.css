@@ -295,3 +295,88 @@ h2
     margin: 20px;
     margin-left: 0px;
 }
+/* BMI styles */
+.bmi-tablechart
+{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    /* border: 2px solid; */
+    gap: 10%;
+    padding: 30px;
+}
+.bmi-cal
+{
+    margin: 40px auto;
+    /* border: 3px dotted peru; */
+    width: 45%;
+}
+.bmi-chart
+{
+    width: 40%;
+}
+.bmi-table
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid ; */
+}
+.bmi-values
+{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+.val-num, .val-con
+{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+h3
+{
+    font-size: 23px;
+    font-weight: 900;
+    padding: 30px;
+    padding-left: 0;
+}
+.cal-input
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+
+}
+.input-last
+{
+    grid-column: span 2;
+}
+.cal-input> input
+{
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(45, 42, 42);
+    border: none;
+    padding: 8px;
+}
+.calculator> p
+{
+    margin-top: 0;
+}
+.calculator
+{
+    width: 45%;
+}
+.cal-btn
+{
+    margin-top: 20px;
+    width: 150px;
+    
+    font-size: large;
+}
+.cal-background
+{
+    width: 100vw;
+    background-color: rgba(34, 34, 34, 1);
+}
