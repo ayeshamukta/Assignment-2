@@ -500,3 +500,21 @@ hr
     /* width: 30vw; */
     text-align: center;
 }
+/* Unique Part */
+.choose-program
+{
+    width: 1200px;
+    border: 2px solid red;
+    margin: 20px auto;
+    /*  */
+    display: flex;
+    background-color: rgb(55, 53, 53);
+    border-radius: 12px;
+    
+}
+.programs
+{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px solid peru;
+}
