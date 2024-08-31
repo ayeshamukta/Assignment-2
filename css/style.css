@@ -68,6 +68,7 @@ body
 .nav-name
 {
     color: rgba(230, 83, 60, 1);
+    font-size: 30px;
 }
 .nav-background
 {
@@ -220,7 +221,7 @@ main{
 .habit
 {
     width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
     /* border: 2px solid peru; */
     
     
@@ -309,11 +310,18 @@ h2
     gap: 10%;
     padding: 30px;
 }
+.bmi-whole
+{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
 .bmi-cal
 {
     margin: 40px auto;
     /* border: 3px dotted peru; */
-    width: 45%;
+    width: 1200px;
+    text-align: center;
 }
 .bmi-chart
 {
@@ -371,6 +379,7 @@ h3
 .calculator
 {
     width: 45%;
+    
 }
 .cal-btn
 {
@@ -389,7 +398,7 @@ h3
 {
     /* border: 2px dotted peru; */
     width: 1200px;
-    margin: 50px 10%;
+    margin: 50px auto;
 
 }
 .team-sec1
@@ -457,7 +466,7 @@ footer
     justify-content: space-between;
     /* border: 2px solid navajowhite; */
     width: 1200px;
-    margin: 0 10%;
+    margin: 50px auto;
 }
 .footer-section1
 {
@@ -504,17 +513,70 @@ hr
 .choose-program
 {
     width: 1200px;
-    border: 2px solid red;
-    margin: 20px auto;
+    /* border: 2px solid red; */
+    margin: 50px auto;
     /*  */
     display: flex;
-    background-color: rgb(55, 53, 53);
+    justify-content: space-between;
+    background-color: rgb(18, 17, 17);
     border-radius: 12px;
     
+    gap: 20px;
+    padding: 30px;
 }
 .programs
 {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    border: 2px solid peru;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 2px solid peru; */
+    border-radius: 13px;
+    gap: 20px;
+    background-color: black;
+}
+.programs>div
+{
+    border: 2px solid gray;
+    border-radius: 12px;
+    /* text-align: center;
+    /* margin: 0 auto; */
+    padding:20px auto; */
+}
+.proram-1, .proram-2, .proram-3, .proram-4, .proram-5
+{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(14, 14, 29);
+    
+}
+
+.proram-5
+{
+    grid-column: span 2; 
+}
+.vedio-link>iframe
+{
+    /* border: 3px solid greenyellow; */
+    border-radius: 20px;
+    padding: 12px;
+
+}
+.unique-p
+{
+    font-size: 20px;
+    color: rgb(212, 203, 203);
+}
+.choose-program>h2
+{
+    margin: auto 10px;
+}
+.programs>div:hover
+{
+    transform: scale(1.1);
+    
+}
+
+.unique-link
+{
+    text-decoration: none;
 }

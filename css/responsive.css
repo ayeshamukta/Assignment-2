@@ -125,6 +125,7 @@
     .bmi-cal
     {
         margin-left: 5%;
+        width: 80vw;
     }
     .bmi-tablechart
     {
@@ -195,6 +196,15 @@
     {
         /* border: 3px solid red; */
         width: 100%;
+    }
+    .choose-program
+    {
+        width: 80vw;
+        flex-direction: column;
+    }
+    .vedio>iframe
+    {
+        width: 270px;
     }
 
 }
